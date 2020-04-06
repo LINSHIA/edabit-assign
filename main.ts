@@ -17,11 +17,12 @@ function addUp(num: number) {
 
 // A Redundant Function 
 
-function redundant(str: any){
+function redundant(str: any)
+{
   return function() { return str ; };
 
 // Array of Multiples 
 
 const arrayOfMultiples = (num: number, length: any) => {
-	return  ((_: any, i: number) => num * (i + 1))};
+	return  ((_: any, i: number) => num * (i + 1))}};
 
